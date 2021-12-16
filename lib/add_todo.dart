@@ -10,7 +10,7 @@ class AddTodo extends StatefulWidget {
 }
 
 class _AddTodoState extends State<AddTodo> {
-  final myController = TextEditingController(text: '');
+  final myController = TextEditingController();
 
   @override
   void dispose() {
